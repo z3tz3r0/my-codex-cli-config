@@ -1,0 +1,6 @@
+auth.json
+achived_sessions/
+log/
+sessions/*
+version.json
+internal_storage.json
