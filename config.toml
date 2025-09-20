@@ -1,2 +1,13 @@
 model = "gpt-5-codex"
 approval_policy = "untrusted"
+model_reasoning_effort = "high"
+tools.web_search = true
+
+# mcp section
+[mcp_servers.context7]
+args = ["-y", "@upstash/context7-mcp", "--api-key", "ctx7sk-e68aa911-4d95-4f80-88b9-fc1f95ecb83d"]
+command = "npx"
+
+[mcp_servers.shadcn]
+args = ["shadcn@latest", "mcp"]
+command = "npx"

@@ -63,7 +63,7 @@
 <information_hierarchy type="dynamic_phase_dependent">
 <note>Prioritize sources dynamically based on the task phase.</note>
 <phase name="Global">
-<priority_1>Project Directives (GEMINI.md)</priority_1>
+<priority_1>Project Directives (AGENT.md)</priority_1>
 </phase>
 <phase name="Strategic Planning (Understanding/Analysis)">
 <priority_1>MCP Context (High-level understanding, architecture, summaries)</priority_1>
